@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+.hidden{
+    display: none;
+}
+h1,h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.login-container{
+    width: 300px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color:skyblue;
+    
+}
+.login-container label,
+.login-container input,
+.login-container select,
+.login-container button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#search-students,
+#update-profile,
+#manage-records,
+#dashboard{
+    width: 80%;
+    margin: 20px auto;
+}
+#search-results{
+    margin-top: 10px;
+}
+button{
+    background-color: greenyellow;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top:30px ;
+}
