@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Directory Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Index Page -->
+    <div id="index-page">
+        <u><h1>WELCOME</h1>
+        <h1>TO</h1>
+        <h1>COLLEGE DIRECTORY APPLICATION</h1></u>
+        <center><button onclick="showPage('login')">Login</button></center>
+    </div>
+
+    <!-- Login Page -->
+    <div id="login-page" class="hidden">
+        <div class="login-container">
+            <h2>COLLEGE LOGIN</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="role">Role:</label>
+                <select id="role" name="role">
+                    <option value="student">Student</option>
+                    <option value="faculty">Faculty Member</option>
+                    <option value="admin">Administrator</option>
+                </select>
+                <button type="submit">Login</button>
+            </form>
+            <p id="error-message"></p>
+        </div>
+    </div>
+
+    <!-- Student Dashboard -->
+    <div id="student-page" class="hidden">
+        <h2>Student Dashboard</h2>
+        <div id="profile">
+            <!-- Student profile info will be displayed here -->
+        </div>
+        <div id="search-students">
+            <input type="text" id="search" placeholder="Search for students...">
+            <button onclick="searchStudents()">Search</button>
+            <div id="search-results">
+                <!-- Search results will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Faculty Dashboard -->
+    <div id="faculty-page" class="hidden">
+        <h2>Faculty Dashboard</h2>
+        <div id="class-list">
+            <!-- Class list will be displayed here -->
+        </div>
+        <div id="update-profile">
+            <form id="updateProfileForm">
+                <label for="office_hours">Office Hours:</label>
+                <input type="text" id="office_hours" name="office_hours">
+                <label for="contact_email">Contact Email:</label>
+                <input type="email" id="contact_email" name="contact_email">
+                <label for="contact_phone">Contact Phone:</label>
+                <input type="text" id="contact_phone" name="contact_phone">
+                <button type="submit">Update Profile</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Admin Dashboard -->
+    <div id="admin-page" class="hidden">
+        <h2>Administrator Dashboard</h2>
+        <div id="manage-records">
+            <!-- Forms for managing records will be displayed here -->
+        </div>
+        <div id="dashboard">
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
