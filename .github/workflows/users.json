@@ -1,0 +1,51 @@
+[
+    {
+        "username":"kushal student",
+        "password":"kushal123",
+        "role":"student",
+        "name":"kushal",
+        "email":"kushal@gmail.com",
+        "phone":"123-456-7890"
+    },
+    {
+        "username":"allu student",
+        "password":"allu123",
+        "role":"student",
+        "name":"allu",
+        "email":"allu@gmail.com",
+        "phone":"123-456-7890"
+    },
+    {
+        "username":"kumar faculty",
+        "password":"kumar123",
+        "role":"faculty",
+        "name":"kumar",
+        "email":"kumar@gmail.com",
+        "phone":"123-456-7890"
+    },
+    {
+        "username":"arjun faculty",
+        "password":"arjun123",
+        "role":"faculty",
+        "name":"arjun",
+        "email":"arjun@gmail.com",
+        "phone":"123-456-7890"
+    },
+    {
+        "username":"priyaka admin",
+        "password":"priyanka123",
+        "role":"admin",
+        "name":"priyanka",
+        "email":"priyanka@gmail.com",
+        "phone":"123-456-7890"
+    },
+    {
+        "username":"leela admin",
+        "password":"leela123",
+        "role":"admin",
+        "name":"leela",
+        "email":"leela@gmail.com",
+        "phone":"123-456-7890"
+    }
+]
+
