@@ -1,6 +1,6 @@
                                                COLLEGE DIRECTORY APPLICATION
 Hey Folks,
-I Have Created a College Directory Application by using HTML5, CSS3, Javascript and JSON Fromats
+I Have Created a College Directory Application by using HTML5, CSS3, Javascript and JSON Formats
 Here is the Output:-
 1) Here is LogIn Portal
 ![Screenshot 2024-07-25 234924](https://github.com/user-attachments/assets/9245fed1-96a5-414e-8912-db2f3cc60ed9)
